@@ -1,3 +1,57 @@
+@font-face {
+    font-family: 'Mulish';
+    src: url('fonts/Mulish-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('fonts/Orbitron-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 body {
   background-color:#000000;
+  color:#ffffff;
+  font-family: 'Mulish';
+  padding:0;
+  margin:0;
+}
+
+h1, h2, h3 {
+  font-family: Orbitron;
+}
+
+a {
+  color:#ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#main {
+  border:0.1px solid #ffffff;
+  width:900px;
+  margin:30px auto;
+}
+
+#logo {
+  width:100px;
+}
+
+#header {
+  padding:10px;
+  background-color: #18191E;
+}
+
+#content {
+  padding:10px;
 }
